@@ -1,0 +1,37 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "wahyuwidiantoro",
+      "name": "Wahyu Widiantoro",
+      "email": "wahyuwidiantoro@mail.com",
+      "password": "12345678",
+      "img": ""
+    },
+    {
+      "id": 2,
+      "username": "nurrochman",
+      "name": "NUr Rochman",
+      "email": "nurrrochman@mail.com",
+      "password": "12345678",
+      "img": ""
+    },
+    {
+      "id": 3,
+      "username": "audrafirmansyah",
+      "name": "Audra Firmansyah",
+      "email": "audrafirmansyah@mail.com",
+      "password": "12345678",
+      "img": ""
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "iduser": 1,
+      "caption": "Halo ini post pertama saya",
+      "img": "",
+      "date": ""
+    }
+  ]
+}
