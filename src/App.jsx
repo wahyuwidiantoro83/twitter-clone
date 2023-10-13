@@ -1,3 +1,5 @@
+
+import LayoutPage from "./Components/HomePage/LayoutPage";
 import { useEffect, useState } from "react";
 import reactLogo from "./assets/react.svg";
 import viteLogo from "/vite.svg";
@@ -41,7 +43,7 @@ function App() {
     <>
       <Routes>
         <Route path="/login" element={<LoginPage />} />
-        <Route path="/timeline" element={<TimeLine />} />
+        <Route path="/timeline" element={<LayoutPage />} />
         <Route path="/userProfile" element={<AccountManagement />} />
         <Route path="/change/username" element={<ChangeUsername />} />
         <Route path="/change/userPassword" element={<ChangeUserPassword />} />
