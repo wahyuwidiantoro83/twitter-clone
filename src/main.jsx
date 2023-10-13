@@ -10,10 +10,9 @@ import { ChakraProvider } from "@chakra-ui/react";
 ReactDOM.createRoot(document.getElementById("root")).render(
   <Provider store={globalState}>
     <ChakraProvider>
-
-    <BrowserRouter>
-      <App />
-    </BrowserRouter>
+      <BrowserRouter>
+        <App />
+      </BrowserRouter>
     </ChakraProvider>
   </Provider>
 );
