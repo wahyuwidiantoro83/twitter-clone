@@ -7,18 +7,9 @@ import LayoutPage from "./Components/HomePage/LayoutPage";
 
 function App() {
   return (
-    <Container
-      padding={"unset"}
-      shadow={"md"}
-      bg={"gray.100"}
-      overflow={"hidden"}
-      maxW={"6xl"}
-      height={"100vh"}
-    >
-      <Routes>
-        <Route path="/" element={<LayoutPage />} />
-      </Routes>
-    </Container>
+    <Routes>
+      <Route path="/" element={<LayoutPage />} />
+    </Routes>
   );
 }
 
