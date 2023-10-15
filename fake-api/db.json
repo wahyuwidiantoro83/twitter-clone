@@ -160,5 +160,37 @@
       "img": "",
       "date": ""
     }
-  ]
+  ],
+  "recommendations": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "username": "johndoe",
+      "profileImage": "https://example.com/johndoe.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "username": "janesmith",
+      "profileImage": "https://example.com/janesmith.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "username": "alicejohnson",
+      "profileImage": "https://example.com/alicejohnson.jpg"
+    }
+  ],
+  "following": [
+    {
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "userAccounts": [],
+  "posts": []
 }

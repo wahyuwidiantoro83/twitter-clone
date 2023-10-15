@@ -1,15 +1,11 @@
-
-import LayoutPage from "./Components/HomePage/LayoutPage";
+import LayoutPage from "./pages/HomePage/LayoutPage";
 import { useEffect, useState } from "react";
-import reactLogo from "./assets/react.svg";
-import viteLogo from "/vite.svg";
-import "./App.css";
+import "./index.css";
 import LoginPage from "./pages/LoginPage";
 import ChangeUserPassword from "./pages/userProfile/changePassword";
 import ChangeUsername from "./pages/userProfile/changeUsername";
 import AccountManagement from "./pages/userProfile";
 import { Route, Routes, useNavigate } from "react-router-dom";
-import TimeLine from "./pages/Timeline";
 import axios from "axios";
 import { API_URL } from "./helper";
 
