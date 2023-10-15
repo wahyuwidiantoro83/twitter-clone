@@ -1,26 +1,33 @@
 import React from "react";
 import {
     Box,
-    Text,
     Input,
-    Button,
-    Stack,
-  } from "@chakra-ui/react";
-  
-  const FollowBar = () => {
+    InputGroup,
+    InputLeftElement,
+    Icon,
+} from "@chakra-ui/react";
+import { FaSearch } from "react-icons/fa"; // Menggunakan ikon pencarian dari react-icons
+
+const FollowBar = () => {
     return (
-      <Box p={4} display={{ base: "none", lg: "block" }}>
-            <Input
-            rounded={"xl"}
-              placeholder="Search"
-              size="lg"
-              variant="filled"
-              bg="gray.700"
-              color="white"
-            />
-      </Box>
+        <Box p={4}>
+            <InputGroup size="lg">
+                <InputLeftElement
+                    pointerEvents="none"
+                    children={<Icon as={FaSearch} color="gray.300" />}
+                />
+                <Input
+                    rounded={"lg"}
+                    placeholder="Search"
+                    variant="filled"
+                    bg="gray.700"
+                    color="white"
+                />
+            </InputGroup>
+        </Box>
     );
-  };
-  
-  export default FollowBar;
+};
+
+export default FollowBar;
+
   

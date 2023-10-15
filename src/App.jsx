@@ -1,15 +1,50 @@
-import React from "react";
-import { Route, Routes } from "react-router-dom";
-import { Container } from "@chakra-ui/react";
-// import SideNav from "./Components/HomePage/HomePage";
-// import RightBar from "./Components/HomePage/RightBar";
-import LayoutPage from "./Components/HomePage/LayoutPage";
+import LayoutPage from "./pages/HomePage/LayoutPage";
+import { useEffect, useState } from "react";
+import "./index.css";
+import LoginPage from "./pages/LoginPage";
+import ChangeUserPassword from "./pages/userProfile/changePassword";
+import ChangeUsername from "./pages/userProfile/changeUsername";
+import AccountManagement from "./pages/userProfile";
+import { Route, Routes, useNavigate } from "react-router-dom";
+import axios from "axios";
+import { API_URL } from "./helper";
 
 function App() {
+  const navigate = useNavigate();
+
+  useEffect(() => {
+    if (localStorage.getItem("loginData")) {
+      let data = JSON.parse(localStorage.getItem("loginData"));
+      axios
+        .get(API_URL + `/user`, {
+          params: {
+            id: data.id,
+            username: data.username,
+            password: data.password,
+          },
+        })
+        .then((response) => {
+          if (response.data.length > 0) {
+            // navigate("/timeline");
+          } else {
+            navigate("/login");
+          }
+        });
+    } else {
+      navigate("/login");
+    }
+  }, []);
+
   return (
-    <Routes>
-      <Route path="/" element={<LayoutPage />} />
-    </Routes>
+    <>
+      <Routes>
+        <Route path="/login" element={<LoginPage />} />
+        <Route path="/timeline" element={<LayoutPage />} />
+        <Route path="/userProfile" element={<AccountManagement />} />
+        <Route path="/change/username" element={<ChangeUsername />} />
+        <Route path="/change/userPassword" element={<ChangeUserPassword />} />
+      </Routes>
+    </>
   );
 }
 

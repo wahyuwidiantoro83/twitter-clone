@@ -1,0 +1,196 @@
+{
+  "user": [
+    {
+      "id": 1,
+      "username": "wahyuwidiantoro",
+      "name": "Wahyu Widiantoro",
+      "email": "wahyuwidiantoro@mail.com",
+      "password": "12345678",
+      "img": ""
+    },
+    {
+      "id": 2,
+      "username": "nurrochman",
+      "name": "NUr Rochman",
+      "email": "nurrrochman@mail.com",
+      "password": "12345678",
+      "img": ""
+    },
+    {
+      "id": 3,
+      "username": "audrafirmansyah",
+      "name": "Audra Firmansyah",
+      "email": "audrafirmansyah@mail.com",
+      "password": "12345678",
+      "img": ""
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes123",
+      "password": "123",
+      "id": 4
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 5
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 6
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 7
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 8
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 9
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 10
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 11
+    },
+    {
+      "email": "sdsd",
+      "name": "sdsd",
+      "username": "sdsd",
+      "password": "sdsd",
+      "img": "",
+      "id": 12
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 13
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 14
+    },
+    {
+      "email": "sdsd",
+      "name": "sdsd",
+      "username": "sdsd",
+      "password": "sdsd",
+      "img": "",
+      "id": 15
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 16
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 17
+    },
+    {
+      "email": "tes",
+      "name": "tes",
+      "username": "tes",
+      "password": "tes",
+      "img": "",
+      "id": 18
+    },
+    {
+      "email": "tesdsd",
+      "name": "tesdsad",
+      "username": "wewew",
+      "password": "sdsdsd",
+      "img": "",
+      "id": 19
+    }
+  ],
+  "post": [
+    {
+      "id": 1,
+      "iduser": 1,
+      "caption": "Halo ini post pertama saya",
+      "img": "",
+      "date": ""
+    }
+  ],
+  "recommendations": [
+    {
+      "id": 1,
+      "name": "John Doe",
+      "username": "johndoe",
+      "profileImage": "https://example.com/johndoe.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "username": "janesmith",
+      "profileImage": "https://example.com/janesmith.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Alice Johnson",
+      "username": "alicejohnson",
+      "profileImage": "https://example.com/alicejohnson.jpg"
+    }
+  ],
+  "following": [
+    {
+      "userId": 1,
+      "id": 1
+    },
+    {
+      "userId": 1,
+      "id": 2
+    }
+  ],
+  "userAccounts": [],
+  "posts": []
+}

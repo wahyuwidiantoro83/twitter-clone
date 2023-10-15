@@ -44,9 +44,13 @@ const Trends = () => {
           display={"flex"}
           flexDirection={"column"}
           alignItems="left"
+          position="relative"
         >
           <Text fontSize={"11"} color="gray">
             {val.category}
+            <HStack spacing={2} position="absolute" right="0" top="3">
+              <Icon as={FaEllipsisH} color="white" />
+            </HStack>
           </Text>
           <Text fontSize="md" color="white">
             {val.object}
@@ -54,9 +58,6 @@ const Trends = () => {
           <Text fontSize={"11"} color="gray">
             {val.nilai}
           </Text>
-          <HStack ml="auto" spacing={2}>
-            <Icon as={FaEllipsisH} color="white" />
-          </HStack>
         </Box>
       );
     });
